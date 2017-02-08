@@ -10,9 +10,14 @@
 	<gml:featureMember>
 		<app:RpHandlingsrom gml:id="_042333bd-d06a-4882-9e46-ea9e35258171">
 			<gml:name>1112</gml:name>
-			<app:RpArealformålOmråde>1112</app:RpArealformålOmråde>
+			<app:identifikasjon xmlns="http://gml.arkitektum.no/SOSI/produktspesifikasjon/Regplan/20160603">
+				<Identifikasjon>
+					<lokalId>String</lokalId>
+					<navnerom>String</navnerom>
+				</Identifikasjon>
+			</app:identifikasjon>
 			<app:volum>
-				<gml:Solid>
+				<gml:Solid gml:id="ID1">
 					<gml:exterior>
 						<gml:Shell>
 							<gml:surfaceMember>
@@ -429,8 +434,6 @@
 									</gml:trianglePatches>
 								</gml:TriangulatedSurface>
 							</gml:surfaceMember>
-						</gml:Shell>
-						<gml:Shell>
 							<gml:surfaceMember>
 								<gml:TriangulatedSurface gml:id="_114a5d43-298f-4218-98aa-f51f596d1496" srsDimension="3">
 									<gml:trianglePatches>
@@ -845,8 +848,6 @@
 									</gml:trianglePatches>
 								</gml:TriangulatedSurface>
 							</gml:surfaceMember>
-						</gml:Shell>
-						<gml:Shell>
 							<gml:surfaceMember>
 								<gml:TriangulatedSurface gml:id="_8942ced0-4677-4ba9-af94-a5b36303724e" srsDimension="3">
 									<gml:trianglePatches>
@@ -1721,14 +1722,21 @@
 					</gml:exterior>
 				</gml:Solid>
 			</app:volum>
+			<app:arealformålsområde xlink:href="1112">
+			</app:arealformålsområde>
 		</app:RpHandlingsrom>
 	</gml:featureMember>
 	<gml:featureMember>
 		<app:RpHandlingsrom gml:id="_85176345-73bb-485f-a6d1-dc8e24ab2785">
 			<gml:name>1803</gml:name>
-			<app:RpArealformålOmråde>1803</app:RpArealformålOmråde>
+			<app:identifikasjon xmlns="http://gml.arkitektum.no/SOSI/produktspesifikasjon/Regplan/20160603">
+				<Identifikasjon>
+					<lokalId>String</lokalId>
+					<navnerom>String</navnerom>
+				</Identifikasjon>
+			</app:identifikasjon>
 			<app:volum>
-				<gml:Solid>
+				<gml:Solid gml:id="IDlkjsdfhgopkdfjho1">
 					<gml:exterior>
 						<gml:Shell>
 							<gml:surfaceMember>
@@ -3501,8 +3509,6 @@
 									</gml:trianglePatches>
 								</gml:TriangulatedSurface>
 							</gml:surfaceMember>
-						</gml:Shell>
-						<gml:Shell>
 							<gml:surfaceMember>
 								<gml:TriangulatedSurface gml:id="_3b585834-7f23-41ab-b020-ad3dfb2a10a9" srsDimension="3">
 									<gml:trianglePatches>
@@ -5273,8 +5279,6 @@
 									</gml:trianglePatches>
 								</gml:TriangulatedSurface>
 							</gml:surfaceMember>
-						</gml:Shell>
-						<gml:Shell>
 							<gml:surfaceMember>
 								<gml:TriangulatedSurface gml:id="_bfcac0c6-ba7c-401e-a847-167827b8b3ee" srsDimension="3">
 									<gml:trianglePatches>
@@ -8861,6 +8865,7 @@
 					</gml:exterior>
 				</gml:Solid>
 			</app:volum>
+			<app:arealformålsområde xlink:href="1803"/>
 		</app:RpHandlingsrom>
 	</gml:featureMember>
 </gml:FeatureCollection>
